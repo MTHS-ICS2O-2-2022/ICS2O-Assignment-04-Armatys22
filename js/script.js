@@ -8,36 +8,36 @@
 
 function myButtonClicked() {
   const TAX = 1.13
-  const sprinkles = 1.00
+  const coffee = 1.00
   const delivery = 15
   const size = parseFloat(document.getElementById("size").value)
   const flavour = parseFloat(document.getElementById("flavour").value)
-  const sprinklesAnswer = document.getElementById("sprinkles").value
+  const coffeeAnswer = document.getElementById("coffie").value
   const pickUpOrDelivery = document.getElementById("pick-up-or-delivery").value
 
   const basePriceNoTAX = size + flavour
   const basePrice = basePriceNoTAX * TAX
-  const sprinklesOnly = (basePriceNoTAX + sprinkles) * TAX
+  const coffeeOnly = (basePriceNoTAX + coffee) * TAX
   const deliveryOnly = (basePriceNoTAX + delivery) * TAX
-  const sprinklesAndDelivery = (basePriceNoTAX + sprinkles + delivery) * TAX
+  const coffeeAndDelivery = (basePriceNoTAX + coffee + delivery) * TAX
 
   const subtotal = calculateSubtotal(
-    sprinklesAnswer,
+    coffeeAnswer,
     pickUpOrDelivery,
     basePrice,
-    sprinklesOnly,
+    coffeeOnly,
     deliveryOnly,
-    sprinklesAndDelivery,
+    coffeeAndDelivery,
     TAX
   )
   const tax = calculateTax(
     subtotal,
-    sprinklesAnswer,
+    coffeeAnswer,
     pickUpOrDelivery,
     basePrice,
-    sprinklesOnly,
+    coffeeOnly,
     deliveryOnly,
-    sprinklesAndDelivery,
+    coffeeAndDelivery,
     TAX
   )
 
@@ -49,20 +49,20 @@ function myButtonClicked() {
 }
 
 function calculateSubtotal(
-  sprinklesAnswer,
+  coffeeAnswer,
   pickUpOrDelivery,
   basePrice,
-  sprinklesOnly,
+  coffeeOnly,
   deliveryOnly,
-  sprinklesAndDelivery,
+  coffeeAndDelivery,
   TAX
 ) {
-  if (sprinklesAnswer == "yes" && pickUpOrDelivery == "delivery") {
-    return sprinklesAndDelivery / TAX
-  } else if (sprinklesAnswer == "no" && pickUpOrDelivery == "delivery") {
+  if (coffeeAnswer == "yes" && pickUpOrDelivery == "delivery") {
+    return coffeeAndDelivery / TAX
+  } else if (coffeeAnswer == "no" && pickUpOrDelivery == "delivery") {
     return deliveryOnly / TAX
-  } else if (sprinklesAnswer == "yes" && pickUpOrDelivery == "pick") {
-    return sprinklesOnly / TAX
+  } else if (coffeeAnswer == "yes" && pickUpOrDelivery == "pick") {
+    return coffeeOnly / TAX
   } else {
     return basePrice / TAX
   }
@@ -70,19 +70,19 @@ function calculateSubtotal(
 
 function calculateTax(
   subtotal,
-  sprinklesAnswer,
+  coffeeAnswer,
   pickUpOrDelivery,
   basePrice,
-  sprinklesOnly,
+  coffeeOnly,
   deliveryOnly,
-  sprinklesAndDelivery,
+  coffeeAndDelivery,
   TAX
 ) {
-  if (sprinklesAnswer == "yes" && pickUpOrDelivery == "delivery") {
-    return sprinklesAndDelivery - subtotal
-  } else if (sprinklesAnswer == "no" && pickUpOrDelivery == "delivery") {
+  if (coffeeAnswer == "yes" && pickUpOrDelivery == "delivery") {
+    return coffeeAndDelivery - subtotal
+  } else if (coffeeAnswer == "no" && pickUpOrDelivery == "delivery") {
     return deliveryOnly - subtotal
-  } else if (sprinklesAnswer == "yes" && pickUpOrDelivery == "pick") {
+  } else if (coffeeAnswer == "yes" && pickUpOrDelivery == "pick") {
   } else {
     return basePrice - subtotal
   }
