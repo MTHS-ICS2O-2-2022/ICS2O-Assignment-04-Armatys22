@@ -1,11 +1,80 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="378" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Enter flavor here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="60" y="185" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Flavour" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7">
+                    <mxGeometry x="175" y="190" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7" source="28" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="7" source="28" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="7">
+                    <mxGeometry x="265" y="205" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="add coffee" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="80" y="225" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Flavour" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7">
+                    <mxGeometry x="175" y="230" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7" source="33" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="7" source="33" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="7">
+                    <mxGeometry x="265" y="245" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="pick up or delivery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="60" y="265" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Flavour" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="7">
+                    <mxGeometry x="175" y="270" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7" source="38" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="7" source="38" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="7">
+                    <mxGeometry x="265" y="285" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Calculate" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="7">
+                    <mxGeometry x="70" y="320" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="img" style="whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="510" y="50" width="200" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="tim hortons donuts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="120" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Enter size here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="185" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Flavour" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="190" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="205" width="10" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
